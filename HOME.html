@@ -1,0 +1,149 @@
+<html>
+<head>
+<style>
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+img{
+vertical-align: top-left;
+height: 150px;
+width: 230px;
+
+}
+
+.nav-links{
+flex: 1;
+text-align: center;
+padding: 0;
+}
+
+.nav-links ul li{
+                list-style: none;
+                display: vertical-block;
+                padding: 50px 12px;
+                position: relative;
+}
+
+.nav-links ul li a{
+                color: white;
+                text-decoration: none;
+                font-size: 18px;
+}
+
+
+.navlist a{
+display: block;
+color: white;
+text-align: center;
+padding: 15px 50px;
+text-decoration: none;
+font-size: 18px;
+}
+
+.navlist a:hover{
+background: pink;
+color: red;
+}
+
+
+body{
+background-color: MintCream;
+width: 250px;
+height: 250px;
+}
+
+.container{
+ background:  #3c6255;
+ display: flex;
+ justify-content: left; 
+ height: 740px;
+width: 750px;
+}
+
+.images{
+padding: 60px;
+
+}
+
+.frame{
+width: 300px;
+height: 300px;
+border: 3px solid black;
+background: white;
+margin: auto;
+padding: 15px 12px;
+}
+
+.button{
+background-color: #FFC0CB;
+color: white;
+cursor: pointer;
+display: inline-block;
+padding: 10px 20px;
+}
+.button:hover{background: green;}
+.button{border-radius: 16px;}
+
+h1{
+padding-bottom: 150px;
+padding-top: 100px;
+padding-left: 300px;
+}
+
+
+</style>
+<title>product landing page</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+   <div class="container">
+
+        <nav>
+
+           <img src="productlogo.jpg" >
+            <div class="nav-links" id="navLinks">
+             <i class="fa fa-times" onclick="hiddenMenu()"></i>
+              <ul class="navlist">
+                  <li><a href="HOME.html">HOME</a></li>
+                  <li><a href="SHOP.html">SHOP</a></li>
+                  <li><a href="ABOUT US.html">ABOUT US</a></li>
+                  <li><a href="CONTACT.html">CONTACT</a></li>
+              </ul>
+            </div>
+          <i class="fa fa-bars"></i>
+   </nav>
+
+
+<div class="container">
+<div class="images">
+
+<div class="frame">
+<img src="pr21.jpg">
+<h3>DIY macrame wall hanging for bedroom and living room.</h3>
+<p class="price-product"><b>$100.00</b></p>
+<button class="button"><a href="BUY.html">buy</a></button>
+</div>
+<br><br><br>
+
+<div class="frame">
+<img src="pr22.jpg" >
+<h3>Iron Circle wall Tea light sconce.</h3>
+<p class="price-product">$150.00</p>
+<button class="button"><a href="BUY.html">buy</a></button>
+</div>
+
+</div>
+</div>
+<h1 align="center">THE  BEAUTY   OF <br><br>HANDMADE LIES <br> <br> IN <br><br>  IMPERFECTIONS..<br><br> ANYTHING <br><br>PERFECT IS<br><br> MACHINE MADE</h1>
+
+</div>
+  
+
+</body>
+</html>
